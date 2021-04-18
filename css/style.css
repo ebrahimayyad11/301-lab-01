@@ -1,0 +1,168 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./layout.css');
+@import url('./theme.css');
+
+@media (max-width:767px){
+    body{
+        width: 480px;
+        box-sizing: border-box;
+        
+        
+    }
+    
+    
+    
+    #a{
+        width : 480px;
+        height : 75px;
+        background-color: rgb(60, 60, 255);
+    }
+    
+    #b{
+        width : 480px;
+        height : 150px;
+        background-color: rgb(60, 60, 235);
+    }
+    
+    #c{
+        width : 480px;
+        height : 125px;
+        background-color: rgb(60, 60, 215);
+    }
+    
+    #d{
+        width : 480px;
+        height : 125px;
+        background-color: rgb(60, 60, 195);
+    }
+    
+    
+    #e{
+        width : 240px;
+        height : 250px;
+        float: left;
+        background-color: rgb(60, 60, 175);
+    }
+    
+    
+    #f{
+        width : 240px;
+        height : 250px;
+        display: inline-block;
+        background-color: rgb(60, 60, 155);
+    }
+    
+    
+    #g{
+        width : 240px;
+        height : 250px;
+        float: left;
+        background-color: rgb(60, 60, 135);
+    }
+    
+    
+    #h{
+        width : 240px;
+        height : 250px;
+        display: inline-block;
+        background-color: rgb(60, 60, 115);
+        
+    }
+    
+    
+    #i{
+        width : 480px;
+        height : 80px;
+        background-color: rgb(60, 60, 95);
+    }
+    
+}
+
+@media (min-width:768px)  {
+    
+}
+body{
+    width: 980px;
+    box-sizing: border-box;
+    margin-left: 22%;
+}
+
+div{
+    background-color: rgb(212, 211, 211);
+    text-align: center;
+    
+}
+
+#container1 {
+    width : 760px;
+    height: 600px;
+    float: left;
+}
+
+#a{
+    width : 960px;
+    height : 100px;
+    background-color: rgb(100, 256, 100);
+    
+}
+
+#b{
+    width : 200px;
+    height : 600px;
+    float: left;
+    background-color: rgb(70, 250, 70);
+}
+
+#c{
+    width : 380px;
+    height : 200px;
+    float: left;
+    background-color: rgb(70, 230, 70);
+}
+
+#d{
+    width : 380px;
+    height : 200px;
+    float: right;
+    background-color: rgb(70, 210, 70);
+}
+
+
+#e{
+    width : 190px;
+    height : 250px;
+    float: left;
+    background-color: rgb(70, 190, 70);
+}
+
+
+#f{
+    width : 190px;
+    height : 250px;
+    float: left;
+    background-color: rgb(70, 170, 70);
+}
+
+
+#g{
+    width : 190px;
+    height : 250px;
+    float: left;
+    background-color: rgb(70, 150, 70);
+}
+
+
+#h{
+    width : 190px;
+    height : 250px;
+    display: inline-block;
+    background-color: rgb(70, 130, 70);
+}
+
+
+#i{
+    width : 760px;
+    height : 150px;
+    background-color: rgb(70, 110, 70);
+}
