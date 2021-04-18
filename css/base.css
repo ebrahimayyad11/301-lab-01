@@ -1,0 +1,18 @@
+@media (max-width:767px){
+    body{
+        width: 480px;
+        box-sizing: border-box;
+        
+        
+    }
+}
+
+@media (min-width:768px)  {
+    
+
+    body{
+        width: 980px;
+        box-sizing: border-box;
+        margin-left: 22%;
+    }
+}
