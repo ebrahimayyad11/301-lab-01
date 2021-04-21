@@ -1,4 +1,4 @@
-@media (max-width:767px){
+@media (max-width:799px){
   
     #a{
         
@@ -53,7 +53,10 @@
     
 }
 
-@media (min-width:768px)  {
+@media screen 
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1) { 
     
 
 
@@ -107,4 +110,62 @@
    
     background-color: rgb(70, 110, 70);
 }
+}
+
+
+@media (min-device-width: 800px) 
+and (max-device-width: 1199px) {
+
+
+    #a{
+   
+        background-color: rgba(252, 7, 7, 0.445);
+        
+    }
+    
+    #b{
+       
+        background-color: rgba(232, 7, 7, 0.445);
+    }
+    
+    #c{
+       
+        background-color: rgba(212, 7, 7, 0.445);
+    }
+    
+    #d{
+       
+        background-color: rgba(192, 7, 7, 0.445);
+    }
+    
+    
+    #e{
+        
+        background-color: rgba(172, 7, 7, 0.445);
+    }
+    
+    
+    #f{
+        
+        background-color: rgba(152, 7, 7, 0.445);
+    }
+    
+    
+    #g{
+        
+        background-color: rgba(132, 7, 7, 0.445);
+    }
+    
+    
+    #h{
+        
+        background-color: rgba(112, 7, 7, 0.445);
+    }
+    
+    
+    #i{
+       
+        background-color: rgba(92, 7, 7, 0.445);
+    }
+    
 }
